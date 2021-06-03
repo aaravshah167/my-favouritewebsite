@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
